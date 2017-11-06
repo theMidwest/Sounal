@@ -4,9 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
-using Nounal.Models;
 
-namespace Nounal.Controllers
+namespace Sounal.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,7 +14,8 @@ namespace Nounal.Controllers
             ViewBag.title = "testing index";
 			return View();
 		}
-        public ActionResult Login(){
+        public ActionResult Login()
+        {
             ViewBag.title = "testing login";
             return View();
         }

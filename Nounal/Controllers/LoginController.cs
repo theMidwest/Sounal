@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Nounal.Controllers
+namespace Sounal.Controllers
 {
     public class LoginController : Controller
     {
