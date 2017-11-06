@@ -2,16 +2,9 @@
 }
 .block1 {
     padding: 150px 0;
-    transition: width 1s;
-    background-color: red;
-    width: 150px;
-    float: left;
+    /*transition: width 1s;*/
+    background-color: purple;
+    /*width: 150px;*/
+    /*float: left;*/
 }
 /*     background-image: url("testing_image.png"); */
-    /*background-color: black;*/
-
-.block1:hover {
-    /*height: 400px;*/
-    width: 425px;
-    background-color: orange;
-}

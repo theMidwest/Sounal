@@ -3,13 +3,8 @@ body, html {
     height: 100%;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body, h1, h2, h3, h4, h5, h6 
+{
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
@@ -28,7 +23,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background-image: url('../../Resources/Background1Forest4k.jpg');
+    background-image: url('~/Resources/Forest.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -138,6 +133,17 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+
+.what-we-do{
+    padding-top: 20px 0;
+    padding-bottom: 20px 0;
+}
+
+.service-usage-block {
+    padding-top: 20px 0;
+    padding-bottom: 20px 0;
+    /*background-image: url('~/Resources/Background1Forest4k.jpg');*/
 }
 
 p.copyright {
